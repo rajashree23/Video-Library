@@ -132,7 +132,7 @@ export const DataReducer = (state, action) => {
         n.videoId === action.payload.videoId
           ? {
               ...n,
-              notes: n.notes.filter((n) => n !== action.payload._id),
+              notes: n.notes.filter((n1) => n1._id !== action.payload.note),
             }
           : n
       );
