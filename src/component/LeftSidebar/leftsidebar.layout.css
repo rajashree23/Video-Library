@@ -1,0 +1,24 @@
+.leftsidebar-container {
+  padding: 6rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-size: 1.25rem;
+}
+
+.leftsidebar-container .item{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.leftsidebar-container .item:hover{
+  color: #509FCE;
+}
+
+.leftsidebar-container .item p{
+    font-weight: 600;
+}

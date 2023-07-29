@@ -1,0 +1,19 @@
+.homepage-container {
+  margin-top: 2rem;
+}
+
+.homepage-container .categories-container {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.homepage-container .categories-container .category-card {
+  text-decoration: none;
+  color: black;
+}
+
+.homepage-container .categories-container .category-card p {
+  font-weight: 600;
+}

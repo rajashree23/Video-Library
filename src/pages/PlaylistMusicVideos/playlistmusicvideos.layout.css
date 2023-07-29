@@ -1,0 +1,10 @@
+.music-videos-container {
+    margin-top: 2rem;
+  }
+  
+  .music-videos-container .video-container {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }

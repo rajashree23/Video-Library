@@ -1,0 +1,44 @@
+.video-card {
+  text-decoration: none;
+  color: black;
+  width: 20rem;
+}
+.video-card .video-thumbnail {
+  position: relative;
+}
+.video-thumbnail .cross-icon{
+    position: absolute;
+    top: -1rem;
+    left: 0rem;
+    cursor: pointer;
+}
+
+
+.video-thumbnail .watch-later {
+  position: absolute;
+  top: 0rem;
+  background: white;
+  padding: 1rem;
+  right: 0rem;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+}
+.watch-later .watch-later-icon {
+  color: #509fce;
+  font-size: 1.5rem;
+}
+.video-card .details-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.details-container .details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+.details .views {
+  color: grey;
+  font-weight: 400;
+}

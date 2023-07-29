@@ -1,0 +1,57 @@
+.playlists-container {
+  margin-top: 2rem;
+}
+
+.playlists-container .playlist-container {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.playlist-container .add-icon {
+  font-size: 2rem;
+  align-self: center;
+  cursor: pointer;
+}
+.playlist-card .thumbnail {
+  position: relative;
+}
+.thumbnail .cross-icon {
+  position: absolute;
+  top: -1rem;
+  right: 0rem;
+  cursor: pointer;
+}
+
+.playlist-name {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 0.5rem 0rem;
+}
+.modal-container{
+    background: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: var(--border-sm);
+    display: flex;
+    box-shadow: 0px 0px 3px 0px grey;
+    z-index: 99;
+    padding: 1rem;
+    gap: 2rem;
+    flex-direction: column;
+    border-radius: 5px;
+    right: 30%;
+}
+.modal-container .cross-icon{
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.playlist-input{
+    border: 1px solid grey;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
