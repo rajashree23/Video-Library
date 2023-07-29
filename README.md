@@ -10,5 +10,4 @@ It helps in navigating through different categories of videos.
 
 
 ## Live url
-https://video-library-mcr9.netlify.app/
-
+https://video-library-phi.vercel.app/
